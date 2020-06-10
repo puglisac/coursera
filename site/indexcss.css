@@ -1,0 +1,77 @@
+* {
+    
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.menu-format{
+    width: 100%;
+}
+.section-format {
+   /* background-color: rgba(250, 197, 84, 0.76);*/
+    background: url(turkeyswissreuben_xl.jpeg);
+    background-position: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    margin: 0px 10px 20px 10px; 
+    border: black solid 1px;
+    border-radius: 3px;
+    height: 150px
+}
+.title-format{
+    text-align: right;
+    border: black solid 1px;
+    border-radius: 3px;
+    padding: 5px; 
+    margin: 0px;
+    
+}
+.title-pos{
+    position: relative;
+    width: 170px;
+    margin: 0px 0px 0px auto;
+}
+#title-one{
+    background-color: rgb(255, 115, 0);
+}
+#title-two{
+    background-color: rgb(146, 40, 40);
+   
+}
+#title-three{
+    background-color:rgb(133, 89, 255);
+}
+p {
+    padding: 5px;
+    background-color: rgba(250, 235, 215, 0.521);
+}
+h1{
+    text-align: center;
+    font-size: 250%;
+    letter-spacing: 10px;
+    margin-bottom: 0px
+}
+h2{
+    text-align: center;
+    font-size: 100%;
+    margin-top: 20px
+}
+h3{
+    font-size: 100%;
+}
+@media(min-width:992px){
+    .col-lg-4{
+       float: left;
+       width: 33.33%;
+       }
+   }
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md-6{
+        float:left;
+        width: 50%;
+    }
+    .col-md-12{
+        float:left;
+        width:100%;
+    }
+}
